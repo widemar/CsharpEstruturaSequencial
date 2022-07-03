@@ -14,6 +14,6 @@ string nomeDois = Console.ReadLine()!;
 Console.Write("Idade: ");
 int idadeDois = int.Parse(Console.ReadLine()!);
 
-double idadeMedia = (double) (idadeUm + idadeDois) / 2;
+double idadeMedia = (double)(idadeUm + idadeDois) / 2;
 
 Console.WriteLine($"A idade média de {nomeUm} e {nomeDois} é de {idadeMedia.ToString("F1", info)}");
